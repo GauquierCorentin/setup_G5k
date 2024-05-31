@@ -1,7 +1,7 @@
 #!/bin/bash
 
 PERF_CGROUP="/sys/fs/cgroup/perf_event"
-SYSTEM_CGROUP="$PERF_CGROUP/system"
+SYSTEM_CGROUP="$PERF_CGROUP"
 
 mkdir -p $SYSTEM_CGROUP
 

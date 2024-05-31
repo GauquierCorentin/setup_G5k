@@ -1,11 +1,9 @@
 #!/bin/bash
 
-sudo cgcreate -g perf_event:222222
+sudo-g5k cgcreate -g perf_event:222222
 
-nano
-
-sleep 2
+rq '$..URL' ../crossref/crossref/crossref0.json
 
 pid=$!
 
-sudo cgclassify -g perf_event:222222 $pid
+sudo-g5k cgclassify -g perf_event:222222 $pid
