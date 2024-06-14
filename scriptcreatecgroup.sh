@@ -2,7 +2,7 @@
 
 sudo-g5k cgcreate -g perf_event:222222
 
-rq '$..URL' ../crossref/crossref/crossref0.json
+rq '$..URL' ../crossref/crossref/crossref8.json
 
 pid=$!
 
